@@ -1,0 +1,57 @@
+.goback_button {
+  display: inline-block;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  background-color: transparent;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  display: flex;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.image_thumb {
+  height: 400px;
+  margin-right: 20px;
+}
+
+.image_thumb > img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie_info_container {
+  width: 100%;
+}
+
+.movie_info_container p {
+  margin: 20px 0;
+}
+
+.additional_list_links {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+}
+
+.additional_list_links li {
+  margin-bottom: 5px;
+}

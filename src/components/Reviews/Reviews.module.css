@@ -1,0 +1,8 @@
+.reviews_list li {
+  margin-bottom: 20px;
+}
+
+.reviews_list__author {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
